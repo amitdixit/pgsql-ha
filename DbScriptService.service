@@ -1,0 +1,8 @@
+[Unit]
+Description=Custom Postgrsql Cluster Startup Script
+ 
+[Service]
+ExecStart=/home/appusr/dbstartup.sh
+ 
+[Install]
+WantedBy=default.target
